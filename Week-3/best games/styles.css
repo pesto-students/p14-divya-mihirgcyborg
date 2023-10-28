@@ -1,0 +1,26 @@
+:root {
+    --table-color: forestgreen;
+    --row-bg-color: honeydew;
+    font-family: Calibri, Myriad;
+ }
+
+caption{
+    text-transform: uppercase;
+    background-color: forestgreen;
+    color: white;
+    padding: 10px;
+    
+}
+
+#game-table{
+    border: 2px solid forestgreen;
+    text-align: center;
+    height: 200px;
+    width: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+tr:nth-child(even){
+    background-color: honeydew;
+}
+

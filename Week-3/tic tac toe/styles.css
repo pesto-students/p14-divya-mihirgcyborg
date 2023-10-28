@@ -1,0 +1,27 @@
+.container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.cell{
+    border: 1px solid lightblue;
+}
+
+.x{
+   text-align: center; 
+   font-size: 90px;
+   color: red;
+}
+
+.o{
+    text-align: center; 
+    font-size: 90px;
+    color: blue;
+ }

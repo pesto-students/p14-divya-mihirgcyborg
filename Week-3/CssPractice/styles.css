@@ -1,0 +1,41 @@
+body{
+    border: 3px solid blue;
+    padding: 5px;
+    background-color: #F0F0F0;
+    width: 600px;
+    height: 280px;
+}
+
+h1{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: blue;
+
+}
+
+.y{
+    float: left;
+    background-color: yellow;
+    width: 200px;
+    padding: 10px;
+    margin: 0 10px 0 0;
+}
+
+.o{
+    background-color: orange;
+    position: absolute;
+    padding: 10px;
+    width: 200px;
+    left: 110px;
+    top: 200px;
+}
+
+.ro{
+    background-color: rgb(255, 80, 0);
+    color: white;
+    float: right;
+    padding: 10px;
+    width: 200px;
+    margin: 20px 40px 0 0;
+}

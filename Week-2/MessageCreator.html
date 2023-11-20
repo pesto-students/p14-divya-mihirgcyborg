@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday Message Creator</title>
+  </head>
+  <style>
+    td {
+      width: 150px;
+    }
+  </style>
+  <body>
+    <h1>Happy Birthday Message Creator</h1>
+
+    <form action="" method="post">
+      <table>
+        <tr>
+          <td><label for="message">Message?</label></td>
+          <td>
+            <input
+              type="text"
+              name="message"
+              id="message"
+              value="Happy birthday"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="email">Email Address?</label></td>
+          <td>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="name@domain.com"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="date">Date to send?</label></td>
+          <td><input type="date" name="date" id="date" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="color">Message color?</label></td>
+          <td><input type="color" name="color" id="color" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="blink">Number of blinks?</label></td>
+          <td>
+            <input type="number" name="blink" id="blink" min="0" max="10" />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="volume">Music volume?</label></td>
+          <td>
+            <input type="range" name="volume" id="volume" min="0" max="50" />
+          </td>
+        </tr>
+      </table>
+
+      <button type="submit">Send Birthday Message</button>
+    </form>
+  </body>
+</html>
